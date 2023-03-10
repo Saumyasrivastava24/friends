@@ -8,3 +8,17 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+.logoContainer{
+    background: rgba(255, 255, 255, 0.272);
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin: 10px;
+   
+    
+    width: 15%;
+    
+}
