@@ -1,50 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Tilt Neon', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Tilt Neon", cursive;
 }
-body{
-    background:url("../assets/images/background.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-.logoContainer{
-    background: rgba(189, 121, 76, 0.338);
-    display: flex;
-    /* width: 100%; */
-    justify-content: center;
-    align-items: center;
-}
-.logo{
-  
-    width: 15%;
- 
-    
-}
-.navbar{
-    /* background-color:rgba(189, 121, 76, 0.338) ; */
-}
-.navul{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    height: 50px;
-}
-.navanchor{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
 
+body {
+  background: url("../assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 
+.logo {
+  width: 10%;
 }
-li{
-    list-style: none;
+
+.navbar {
+  display: flex;
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  background-color: rgba(17, 25, 40, 0.345);
+  align-items: center;
+  /* border: 1px solid rgba(255, 255, 255, 0.125); */
 }
-.navanchor:hover{
-    transition: 1s;
-    text-decoration: underline;
-    background-color: rgb(97,77,70);
+
+.navUl {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navLi {
+  list-style: none;
+}
+
+.navAnchor {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  transition: 1s;
+}
+
+.navAnchor:hover {
+  text-decoration: underline;
 }
