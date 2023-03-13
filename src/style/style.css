@@ -23,6 +23,7 @@ body {
   align-items: center;
 }
 
+
 .navUl {
   display: flex;
   gap: 100px;
@@ -44,4 +45,37 @@ body {
 
 .navAnchor:hover {
   text-decoration: underline;
+}
+.homeDescriptionContainerMain{
+    margin: auto;
+    height: 50vh;
+    width: 80%;
+    /* background-color:rgba(255, 255, 255, 0.29) ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.homeDescriptionContainer{
+
+    backdrop-filter: blur(12px) saturate(150%);
+    -webkit-backdrop-filter: blur(12px) saturate(150%);
+    background-color: rgba(17, 25, 40, 0.345);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.homeDescriptionHeadingContainer{
+    margin: 15px;
+}
+.homeDescriptionHeading
+{
+    color:#ffffff;
+    font-size: 1.7em;
+    font-weight: 200;
 }
