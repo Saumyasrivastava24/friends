@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Tilt Neon", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+*::selection {
+  background: #f4980482;
 }
 
 body {
@@ -12,7 +16,8 @@ body {
 }
 
 .logo {
-  width: 10%;
+  width: 11%;
+  cursor: pointer;
 }
 
 .navbar {
@@ -23,10 +28,9 @@ body {
   align-items: center;
 }
 
-
 .navUl {
   display: flex;
-  gap: 100px;
+  gap: 70px;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -40,42 +44,73 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1.2em;
-  transition: 1s;
+  padding: 4px 25px;
 }
 
 .navAnchor:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  background: rgba(221, 217, 214, 0.402);
+  border-radius: 20px;
 }
-.homeDescriptionContainerMain{
-    margin: auto;
-    height: 50vh;
-    width: 80%;
-    /* background-color:rgba(255, 255, 255, 0.29) ; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.homeDescriptionContainer{
 
-    backdrop-filter: blur(12px) saturate(150%);
-    -webkit-backdrop-filter: blur(12px) saturate(150%);
-    background-color: rgba(17, 25, 40, 0.345);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 10px;
-    
+.homeDescriptionContainerMain {
+  margin: auto;
+  margin-top: 3%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.homeDescriptionHeadingContainer{
-    margin: 15px;
+
+.homeDescriptionContainer {
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  background-color: rgba(17, 25, 40, 0.345);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
 }
-.homeDescriptionHeading
-{
-    color:#ffffff;
-    font-size: 1.7em;
-    font-weight: 200;
+
+.homeDescriptionHeadingContainer {
+  margin: 15px;
+}
+
+.homeDescriptionHeading {
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+  border-radius: 1px;
+}
+
+.homeDescriptionParaContainer {
+  margin: 5px 0;
+}
+
+.homeDescriptionPara {
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.homeAnchorContainer {
+  margin: 20px 0 20px 0;
+}
+
+.homeDescriptionAnchor {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  background-color: rgba(255, 255, 255, 0.146);
+  padding: 5px 30px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
+.homeDescriptionAnchor:hover {
+  background-color: rgba(255, 255, 255, 0.251);
 }
