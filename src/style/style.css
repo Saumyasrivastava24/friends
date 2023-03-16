@@ -2,12 +2,23 @@
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
+
 }
 
 *::selection {
   background: #f4980482;
+
 }
 
+*::-webkit-scrollbar{
+    width: 5px;
+    
+}
+*::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius: 10px;
+
+}
 body {
   background: url("../assets/images/background.jpg");
   background-size: cover;
@@ -113,4 +124,16 @@ body {
 
 .homeDescriptionAnchor:hover {
   background-color: rgba(255, 255, 255, 0.251);
+}
+.footerContainer{
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 100%;
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  background-color: rgba(17, 25, 40, 0.345);
+  margin-top: 5%;
 }
