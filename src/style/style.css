@@ -136,4 +136,6 @@ body {
   -webkit-backdrop-filter: blur(12px) saturate(150%);
   background-color: rgba(17, 25, 40, 0.345);
   margin-top: 5%;
+  position: absolute;
+  bottom: 0;
 }
