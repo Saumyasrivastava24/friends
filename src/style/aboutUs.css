@@ -1,0 +1,23 @@
+.characterInfoCardContainer{
+border:2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 30%;
+gap: 20px;
+
+}
+.characterInfoCardMainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.characterInfoCardImageContainer{
+ width: 30%;
+}
+.characterImage{
+    width: 100%;
+}
