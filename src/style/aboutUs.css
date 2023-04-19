@@ -1,26 +1,32 @@
-.characterInfoCardContainer{
-border: 1px solid white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 30%;
-gap: 20px;
-border-radius: 10px;
-margin: 5px;
-
-
+.characterInfoCardContainer {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 7px;
 }
-.characterInfoCardMainContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 
+.characterInfoCardMainContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.characterInfoCardImageContainer{
- width: 30%;
+
+.characterInfoCardImageContainer {
+  width: 35%;
 }
-.characterImage{
-    width: 100%;
+
+.characterImage {
+  width: 100%;
+}
+
+.characterInfoContent {
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
 }
