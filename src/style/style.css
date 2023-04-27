@@ -144,3 +144,40 @@ body {
   padding: 10px;
   bottom: 0;
 }
+
+@media (max-width:785px){
+  .navUl{
+    gap: 10px;
+  }
+  
+}
+@media (max-width:580px) {
+  
+  .navAnchor{
+    padding:4px 10px;
+  }
+  .footerContainer{
+    width: 93%;
+
+  }
+}
+@media (max-width:450px) {
+  
+  .navAnchor{
+    padding:4px 5px;
+    font-size: 0.8em;
+  }
+  .logo{
+    width:18%;
+  }
+  .homeDescriptionHeading{
+    font-size: 1.5em;
+  }
+  .homeDescriptionPara{
+    font-size: 1.2em;
+  }
+  .homeDescriptionAnchor{
+    padding:2px 18px ;
+    font-size: 1em;
+  }
+}
