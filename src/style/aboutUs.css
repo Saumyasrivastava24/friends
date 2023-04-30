@@ -8,6 +8,7 @@
   gap: 10px;
   border-radius: 10px;
   margin: 7px;
+  height: 220px;
 }
 
 .characterInfoCardMainContainer {
@@ -18,11 +19,11 @@
 }
 
 .characterInfoCardImageContainer {
-  width: 35%;
+  /* width: 35%; */
 }
 
 .characterImage {
-  width: 100%;
+  width: 100px;
 }
 
 .characterInfoContent {
@@ -31,55 +32,56 @@
   text-align: center;
 }
 
-@media (max-width:487px){
-
-  .homeDescriptionHeading{
-    font-size: 1.8em;
-
+@media (max-width: 720px) {
+  .characterInfoCardContainer {
+    width: 40%;
   }
 }
-@media (max-width:448px){
 
-  .homeDescriptionHeading{
+@media (max-width: 560px) {
+  .characterInfoCardContainer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 487px) {
+  .homeDescriptionHeading {
+    font-size: 1.8em;
+  }
+}
+@media (max-width: 448px) {
+  .homeDescriptionHeading {
     font-size: 1.5em;
   }
-  
+  .characterInfoCardContainer {
+    width: 70%;
+  }
 }
-@media (max-width:388px){
 
-  .homeDescriptionHeading{
+@media (max-width: 388px) {
+  .homeDescriptionHeading {
     font-size: 1.4em;
   }
-  
 }
-@media (max-width:361px){
 
-  .homeDescriptionHeading{
+@media (max-width: 361px) {
+  .homeDescriptionHeading {
     font-size: 1.2em;
   }
-  
 }
-@media (max-width:440px){
 
-  .characterInfoCardContainer{
-    width:43%;
-  }
-}
-@media (max-width:458px){
-
-  .characterInfoCardContainer{
+@media (max-width: 458px) {
+  .characterInfoCardContainer {
     font-size: 1.1em;
   }
 }
-@media (max-width:347px){
-
-  .characterInfoCardContainer{
+@media (max-width: 347px) {
+  .characterInfoCardContainer {
     font-size: 1em;
   }
 }
-@media (max-width:458px){
-
-  .characterInfoContent{
+@media (max-width: 458px) {
+  .characterInfoContent {
     font-size: 1.1em;
   }
 }
