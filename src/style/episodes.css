@@ -1,0 +1,22 @@
+.episodeButtonContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    
+}
+.episodeButton
+{
+    background: rgba( 255, 255, 255, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8px );
+font-size: 1.1rem;
+-webkit-backdrop-filter: blur( 8px );
+border-radius: 3px;
+color: white;
+text-decoration: none;
+padding: 5px 5px;
+margin: 5px;
+width: 100%;
+/* text-align: center; */
+}

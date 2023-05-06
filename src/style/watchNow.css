@@ -1,0 +1,33 @@
+.watchNowCardMainContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.watchNowCardContainer{
+    width: 22%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 12px;
+    }
+.watchNowImages{
+    border-radius: 10px;
+    width: 100%;
+}
+.watchNowSeasonButtonContainer{
+    text-align: center;
+    margin-top: 10px;
+}
+.watchNowSeasonButton{
+    color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.146);
+  padding: 2px 10px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+
