@@ -30,4 +30,36 @@
   border-radius: 20px;
   border: 1px solid #fff;
 }
+@media(max-width:621px){
+    .watchNowSeasonButton{
+            font-size: 1em;
+    }
+}
 
+@media(max-width:581px){
+    .watchNowSeasonButton{
+            padding: 2px 5px;
+    }
+}
+@media(max-width:544px){
+    .watchNowSeasonButton{
+            padding: 2px 2.5px;
+    }
+}
+@media(max-width:500px){
+    .watchNowSeasonButton{
+            padding: 1px 0.8px;
+    }
+}
+@media(max-width:480px){
+    .watchNowSeasonButton{
+        font-size: 0.8em;
+            padding: 0.8px 0.8px;
+    }
+}
+@media(max-width:400px){
+    .watchNowSeasonButton{
+        font-size: 0.6em;
+            padding: 0.8px 0.8px;
+    }
+}
