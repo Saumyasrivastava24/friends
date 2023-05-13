@@ -1,22 +1,61 @@
-.episodeButtonContainer{
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    
+.episodeButtonContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
 }
-.episodeButton
-{
-    background: rgba( 255, 255, 255, 0.3 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 8px );
-font-size: 1.1rem;
--webkit-backdrop-filter: blur( 8px );
-border-radius: 3px;
-color: white;
-text-decoration: none;
-padding: 5px 5px;
-margin: 5px;
-width: 100%;
-/* text-align: center; */
+.episodeButton {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  font-size: 1.1rem;
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+  margin: 5px;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.iframeVideoContainer {
+  width: 500px;
+  height: 300px;
+}
+
+@media (max-width: 550px) {
+  .iframeVideoContainer {
+    width: 400px;
+    height: 250px;
+  }
+  .episodeButtonContainer {
+    width: 400px;
+  }
+}
+
+@media (max-width: 435px) {
+  .iframeVideoContainer {
+    width: 340px;
+    height: 200px;
+  }
+  .episodeButtonContainer {
+    width: 350px;
+  }
+  .episodeButton {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 340px) {
+  .iframeVideoContainer {
+    width: 265px;
+    height: 150px;
+  }
+  .episodeButtonContainer {
+    width: 270px;
+  }
+  .episodeButton {
+    font-size: 0.9em;
+  }
 }
