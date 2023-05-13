@@ -49,10 +49,12 @@
     font-size: 1.8em;
   }
 }
+
 @media (max-width: 448px) {
   .homeDescriptionHeading {
     font-size: 1.5em;
   }
+
   .characterInfoCardContainer {
     width: 70%;
   }
@@ -75,11 +77,13 @@
     font-size: 1.1em;
   }
 }
+
 @media (max-width: 347px) {
   .characterInfoCardContainer {
     font-size: 1em;
   }
 }
+
 @media (max-width: 458px) {
   .characterInfoContent {
     font-size: 1.1em;
