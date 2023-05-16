@@ -25,6 +25,22 @@
   height: 300px;
 }
 
+.episodeTitleContainer {
+  margin: 10px;
+}
+
+.nowPlaying {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 2px 0;
+}
+
+.episodeTitle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
 @media (max-width: 550px) {
   .iframeVideoContainer {
     width: 400px;
@@ -32,6 +48,9 @@
   }
   .episodeButtonContainer {
     width: 400px;
+  }
+  .episodeTitle {
+    font-size: 1.2em;
   }
 }
 
